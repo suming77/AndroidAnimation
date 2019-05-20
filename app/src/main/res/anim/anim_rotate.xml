@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 动画时间两秒，在控件的中心点内，从0度顺时针开始旋转650度，动画结束会保持动画最后的状态-->
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="2000"
+        android:fillAfter="true"
+        android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toDegrees="650"/>
+
