@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 动画时间两秒，从原点（0,0）平移到(100,100),无限次重复-->
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+           android:duration="2000"
+           android:fromXDelta="0"
+           android:fromYDelta="0"
+           android:interpolator="@android:anim/decelerate_interpolator"
+           android:toXDelta="300"
+           android:toYDelta="300"/>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_AccelerateDece"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AccelerateDece"/>
+
+        <Button
+            android:id="@+id/btn_Accelerate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Accelerate"/>
+
+        <Button
+            android:id="@+id/btn_Anticipate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Anticipate"/>
+
+        <Button
+            android:id="@+id/btn_AnticipateOver"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AnticipateOver"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_Bounce"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bounce"/>
+
+        <Button
+            android:id="@+id/btn_Cycle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cycle"/>
+
+        <Button
+            android:id="@+id/btn_Decelerate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Decelerate"/>
+
+        <Button
+            android:id="@+id/btn_LinearInter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="LinearInter"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_Overshoot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overshoot"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="120dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="hello world"/>
+</LinearLayout>

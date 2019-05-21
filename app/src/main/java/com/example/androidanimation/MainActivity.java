@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 /**
  * 我的博客：https://blog.csdn.net/m0_37796683/article/details/90293418
+ *          alpha、scale、translate、rotate、set的xml属性及用法
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
