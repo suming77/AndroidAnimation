@@ -1,1 +1,1 @@
-include ':app', ':animation_code', ':animationinterpolator'
+include ':app', ':animation_code', ':animationinterpolator', ':valueanimator'

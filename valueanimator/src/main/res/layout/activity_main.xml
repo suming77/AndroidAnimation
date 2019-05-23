@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_start_anim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:padding="10dp"
+            android:text="start anim"/>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="#0000ff"
+            android:padding="10dp"
+            android:text="Hello World!"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="#000000"
+            android:padding="10dp"
+            android:text="cancel anim"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/tv_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_start_anim"
+            android:layout_marginTop="10dp"
+            android:background="#666666"
+            android:padding="10dp"
+            android:text="pause anim"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/tv_resume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_start_anim"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:background="#666666"
+            android:padding="10dp"
+            android:text="resume anim"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/tv_remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_pause"
+            android:layout_marginTop="10dp"
+            android:background="#666666"
+            android:padding="10dp"
+            android:text="removeLis"
+            android:textColor="#ffffff"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
