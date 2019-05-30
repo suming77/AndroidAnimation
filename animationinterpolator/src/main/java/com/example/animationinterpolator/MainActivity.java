@@ -20,8 +20,8 @@ import android.view.animation.TranslateAnimation;
 import android.widget.TextView;
 
 /**
- * 我的博客：
- * 代码动态生成alpha、scale、translate、rotate、set及插值器动画
+ * 不同插值器动画的使用
+ * 我的博客：https://blog.csdn.net/m0_37796683/article/details/90376533
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private static final String TAG = MainActivity.class.getSimpleName();

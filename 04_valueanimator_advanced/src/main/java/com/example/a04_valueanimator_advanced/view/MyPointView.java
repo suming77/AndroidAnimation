@@ -1,4 +1,4 @@
-package com.example.a04_valueanimator_advanced;
+package com.example.a04_valueanimator_advanced.view;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -8,6 +8,8 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.BounceInterpolator;
+
+import com.example.a04_valueanimator_advanced.evaluator.PointEvaluator;
 
 /**
  * @创建者 mingyan.su

@@ -10,6 +10,12 @@ import android.view.animation.AccelerateInterpolator;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.a04_valueanimator_advanced.evaluator.CharEvaluator;
+import com.example.a04_valueanimator_advanced.evaluator.MyEvaluator;
+import com.example.a04_valueanimator_advanced.evaluator.ReverseEvaluator;
+import com.example.a04_valueanimator_advanced.interpolator.MyInterpolator;
+import com.example.a04_valueanimator_advanced.view.MyPointView;
+
 /**
  * 插值器,Evaluator,ofObject()的使用
  * 我的博客地址：https://blog.csdn.net/m0_37796683/article/details/90483462

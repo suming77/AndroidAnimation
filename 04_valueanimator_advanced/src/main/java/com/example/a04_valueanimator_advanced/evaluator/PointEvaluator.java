@@ -1,6 +1,8 @@
-package com.example.a04_valueanimator_advanced;
+package com.example.a04_valueanimator_advanced.evaluator;
 
 import android.animation.TypeEvaluator;
+
+import com.example.a04_valueanimator_advanced.view.Point;
 
 /**
  * @创建者 mingyan.su

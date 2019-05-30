@@ -1,4 +1,4 @@
-package com.example.a04_valueanimator_advanced;
+package com.example.a04_valueanimator_advanced.view;
 
 /**
  * @创建者 mingyan.su

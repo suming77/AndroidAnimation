@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_start_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#666666"
+        android:padding="10dp"
+        android:text="start anim"/>
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="#666666"
+        android:padding="10dp"
+        android:text="cancel anim"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_start_anim"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="tv1"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv1"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/tv1"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:visibility="gone"
+        android:padding="10dp"
+        android:text="tv2"
+        android:textColor="#ffffff"/>
+
+
+</RelativeLayout>

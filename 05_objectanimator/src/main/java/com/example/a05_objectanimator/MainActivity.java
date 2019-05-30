@@ -1,5 +1,6 @@
 package com.example.a05_objectanimator;
 
+import android.animation.AnimatorSet;
 import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
@@ -9,6 +10,10 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+/**
+ * ObjectAnimator的基本使用
+ * 我的博客：https://blog.csdn.net/m0_37796683/article/details/90607428
+ */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private static final String TAG = MainActivity.class.getSimpleName();
     private TextView mTextView;
@@ -45,6 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
+
     /**
      * 透明度
      */
@@ -52,13 +58,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mObjectAnimator = ObjectAnimator.ofFloat(mTextView, "alpha", 1f, 0f, 1f);
         mObjectAnimator.setDuration(2000);
         mObjectAnimator.start();
+        AnimatorSet animatorSet = new AnimatorSet();
     }
 
     /**
      * 围绕Z轴旋转
      */
     private void rotation() {
-        ObjectAnimator animator = ObjectAnimator.ofFloat(mTextView, "rotation", 0, 360, 0);
+        ObjectAnimator animator = ObjectAnimator.ofFloat(mTextView, "rotation", 0f, 360f, 0f);
         animator.setDuration(3000);
         animator.start();
     }
@@ -67,7 +74,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * 围绕X轴旋转
      */
     private void rotationX() {
-        ObjectAnimator animator = ObjectAnimator.ofFloat(mTextView, "rotationX", 0, 360, 0);
+        ObjectAnimator animator = ObjectAnimator.ofFloat(mTextView, "rotationX", 0f, 360f, 0f);
         animator.setDuration(3000);
         animator.start();
     }
@@ -76,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * 围绕Y轴旋转
      */
     private void rotationY() {
-        ObjectAnimator animator = ObjectAnimator.ofFloat(mTextView, "rotationY", 0, -360, 0);
+        ObjectAnimator animator = ObjectAnimator.ofFloat(mTextView, "rotationY", 0f, -360f, 0f);
         animator.setDuration(3000);
         animator.start();
     }
@@ -85,7 +92,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * 围绕X轴缩放
      */
     private void scaleX() {
-        ObjectAnimator animator = ObjectAnimator.ofFloat(mTextView, "scaleX", 0, 4, 2, 1);
+        ObjectAnimator animator = ObjectAnimator.ofFloat(mTextView, "scaleX", 0f, 4f, 2f, 1f);
         animator.setDuration(3000);
         animator.start();
     }
@@ -94,7 +101,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * 围绕Y轴缩放
      */
     private void scaleY() {
-        ObjectAnimator animator = ObjectAnimator.ofFloat(mTextView, "scaleY", 0, 4, 2, 1);
+        ObjectAnimator animator = ObjectAnimator.ofFloat(mTextView, "scaleY", 0f, 4f, 2f, 1f);
         animator.setDuration(3000);
         animator.start();
     }
@@ -103,7 +110,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * 在X轴方向移动
      */
     private void translationX() {
-        ObjectAnimator animator = ObjectAnimator.ofFloat(mTextView, "translationX", 0, 400, -200, 0);
+        ObjectAnimator animator = ObjectAnimator.ofFloat(mTextView, "translationX", 0f, 400f, -200f, 0f);
         animator.setDuration(3000);
         animator.start();
     }
@@ -112,7 +119,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * 在Y轴方向移动
      */
     private void translationY() {
-        ObjectAnimator animator = ObjectAnimator.ofFloat(mTextView, "translationY", 0, 400, -200, 0);
+        ObjectAnimator animator = ObjectAnimator.ofFloat(mTextView, "translationY", 0f, 400f, -200f, 0f);
         animator.setDuration(3000);
         //设置循环模式，倒叙回放
         animator.setRepeatMode(ValueAnimator.REVERSE);
@@ -130,4 +137,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         animator.setEvaluator(new ArgbEvaluator());
         animator.start();
     }
+
+
 }

@@ -33,7 +33,7 @@
         android:text="cancel anim"
         android:textColor="#ffffff"/>
 
-    <com.example.a04_valueanimator_advanced.MyPointView
+    <com.example.a04_valueanimator_advanced.view.MyPointView
         android:id="@+id/myPointView"
         android:layout_centerInParent="true"
         android:layout_width="match_parent"

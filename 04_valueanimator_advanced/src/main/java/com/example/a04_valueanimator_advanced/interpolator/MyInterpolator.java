@@ -1,4 +1,4 @@
-package com.example.a04_valueanimator_advanced;
+package com.example.a04_valueanimator_advanced.interpolator;
 
 import android.view.animation.BaseInterpolator;
 
