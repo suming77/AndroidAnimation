@@ -9,4 +9,9 @@ animationinterpolator模块：插值器的使用和xml用法源码
 
 03_valueanimator模块：valueanimator基础用法源码
 
-04_valueanimator_advanced模块：插值器、Evaluator、ofObject()
+04_valueanimator_advanced模块：valueanimator的高级使用（插值器、Evaluator、ofObject()）
+
+05_objectanimator模块：objectanimator的基本使用
+
+06_animatorset模块：AnimatorSet和propertyValuesHolder的使用
+
